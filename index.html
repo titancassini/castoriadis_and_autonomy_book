@@ -20,14 +20,35 @@
 		<meta name="twitter:card" content="summary_large_image">
 		<meta property="og:site_name" content="Castoriadis and Autonomy in the Twenty-first Century">
 		<meta name="twitter:image:alt" content="Castoriadis and Autonomy in the Twenty-first Century">
-		<meta property="fb:app_id" content="450699018370500|auOIVmerPv2LE7rCcPbS7rZAQ3o" />
+		<meta property="fb:app_id" content="Castoriadis_and_Autonomy" />
 		<meta name="twitter:site" content="@website-cspannos">
 		<!--  End Social Media META Tags -->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
+		<!--  Facebook App -->
+		<script>
+		  window.fbAsyncInit = function() {
+		    FB.init({
+		      appId      : '{Castoriadis_and_Autonomy}',
+		      cookie     : true,
+		      xfbml      : true,
+		      version    : '{9.0}'
+		    });
 
+		    FB.AppEvents.logPageView();
+
+		  };
+
+		  (function(d, s, id){
+		     var js, fjs = d.getElementsByTagName(s)[0];
+		     if (d.getElementById(id)) {return;}
+		     js = d.createElement(s); js.id = id;
+		     js.src = "https://connect.facebook.net/en_US/sdk.js";
+		     fjs.parentNode.insertBefore(js, fjs);
+		   }(document, 'script', 'facebook-jssdk'));
+		</script>
 		<!-- Sidebar -->
 			<section id="sidebar">
 				<div class="inner">
